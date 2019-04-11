@@ -39,6 +39,8 @@
 
 ### 代码实现流程
 
+![image](https://github.com/coderInk/udpnat/blob/master/udpHole.png)
+
  1. 加入p2p系统的节点向服务器发送注册消息，服务器记录加入节点的用户名与经过NAT设备后的ip与port.
  2. Client A向用户名B发送消息，则先找到用户名B的经过NAT后的ip和port，判断与对端是否已经打洞．
  3. 如果没打洞则发送握手消息给Client B，如果在一个局域网则B收到握手消息后回复ACK;如果不在同一个局域网则等待ACK超时，发送握手消息给服务器，服务器转发消息给Client B.
