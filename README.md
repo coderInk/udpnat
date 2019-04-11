@@ -2,7 +2,7 @@
  
  # **udpnat 用UDP实现NAT穿透,p2p聊天系统**
   
-  &ensp;&ensp;用UDP实现的NAT穿透，一个简单的p2p聊天系统, 理论上来说, 只要不是Port Restricted Cone NAT与Symmetric NAT , Symmetric NAT与Symmetric NAT. 这两种类型组合之间打洞
+  &ensp;&ensp;用UDP实现的NAT穿透，一个简单的p2p聊天系统, 理论上来说, 只要不是Port Restricted Cone NAT与Symmetric NAT , Symmetric NAT与Symmetric NAT. 这两种类型组合之间打洞,都可以使用．这两种类型参考其他方案．
 (默认只有一个网卡，一个ip的情况)
 
 ## 原理
